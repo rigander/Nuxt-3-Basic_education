@@ -3,7 +3,7 @@
     <div class="wrapper">
       <br>
       <h1>Login Page</h1>
-      <from>
+      <form>
         <div class="from-group">
           <input type="text" class="form-control">
         </div>
@@ -12,21 +12,21 @@
           <nuxt-link class="nuxt_link" to="/">To Home Page</nuxt-link>
         </p>
         <button class="btn btn-primary" type="submit">Login</button>
-      </from>
+      </form>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "login"
+  name: "login",
+  layout: 'empty'
 }
 </script>
 
 <style scoped lang="scss">
 .wrapper{
   margin: 0 auto;
-  padding: 0 20%;
   background-color: #3f3f40;
   height: 1800px;
   input{
@@ -39,5 +39,8 @@ export default {
 }
 h1{
   color: wheat;
+}
+form{
+  width: 500px;
 }
 </style>

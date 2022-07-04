@@ -13,11 +13,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 body{
-  width: 100%;
-  height: 1800px;
   background-color: #3f3f40;
+  width: 100%;
 }
-
 </style>

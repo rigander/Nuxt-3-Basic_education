@@ -1,5 +1,7 @@
 <template>
   <section>
+    <br>
+    <br>
     <h1>User {{ $route.params.id }}</h1>
   </section>
 </template>
@@ -13,6 +15,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+section{
+  color: wheat;
+}
 </style>
